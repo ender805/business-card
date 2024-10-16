@@ -48,7 +48,7 @@ as it will change/"grow" with all "blocks" */
     
 }
 
-
+/* colors for tiles  */
 .tile1 {
    background-color: #1056c0;
 }
@@ -92,7 +92,6 @@ as it will change/"grow" with all "blocks" */
     border-radius: 1%;
 }
 .tile5 {
-    
     margin:10px;
     width: 420px;
     height: 244px; 
@@ -101,7 +100,7 @@ as it will change/"grow" with all "blocks" */
     text-align: justify;
     padding:30px;
 }
-.twitter  {
+.twitter, .linkedin, .gplus, .github {
     float:left;
     margin:10px;
     width: 105px;
@@ -113,48 +112,25 @@ as it will change/"grow" with all "blocks" */
     justify-content: center;
     border-radius: 5%;
 }
+/* clors for socials */
 .linkedin {
-    float:left;
-    margin:10px;
-    width: 105px;
-    height: 142px; 
     background-color: #0077B5;
-    font-size: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5%;
-    align-content: center;
-    
 }
 .gplus  {
-    float: left;
-    margin:10px;
-    width: 105px;
-    height: 142px; 
     background-color:#db4a39;
-    font-size: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5%;
-}
+} 
 .github  {
-    float: left;
-    margin:10px;
-    width: 105px;
-    height: 142px; 
     background-color: #4078c0;
-    font-size: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5%;
 }
 .bottom {
     text-align: center;
     padding: 5px;
     font-size: 15px;
-    justify-content: ;
+    
 
 }
+
+/* thigs to do: 
+1. clock -java script - under clock <p>It's high time..<p> 
+2. left tiles - hover - or something like that then dispaly in tile tile5 (main)
+3. in css create something on background and movment looks nice simple and its light - just for fun  */
