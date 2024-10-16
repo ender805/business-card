@@ -4,11 +4,14 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
     height: 100%;
+    
 }
 #container {
     width: 1000px;
     margin-left: auto;
     margin-right: auto; 
+    
+    box-shadow:0px 0px 30px 20px #37383a
     /* sprawdz magin pozniej margin auto */
    
 }
@@ -79,33 +82,50 @@ as it will change/"grow" with all "blocks" */
     height: 304px; 
     background-color: #0dbdb4;
 }
-.yt  {
+.twitter  {
     float:left;
     margin:10px;
     width: 105px;
     height: 142px; 
-    background-color: #bb0985;
+    background-color: #030303;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.fb  {
+.linkedin {
     float:left;
     margin:10px;
     width: 105px;
     height: 142px; 
-    background-color: #bb0985;
+    background-color: #0077B5;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .gplus  {
     float: left;
     margin:10px;
     width: 105px;
     height: 142px; 
-    background-color: #bb0985;
+    background-color:#db4a39;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.tw  {
+.github  {
     float: left;
     margin:10px;
     width: 105px;
     height: 142px; 
-    background-color: #bb0985;
+    background-color: #4078c0;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .bottom {
     text-align: center;
