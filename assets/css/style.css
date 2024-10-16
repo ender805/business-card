@@ -1,0 +1,25 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    /* sprawdz magin pozniej margin auto */
+    border: 1px solid; 
+/* usun border it is only to see what is going on */
+}
+.head {
+    width: 960px;
+    margin:20px;
+/* width 960 becouse margin will take 20 each side, and container width is 1000 height is neccessary 
+as it will change/"grow" with all "blocks" */
+}
+.square {
+    width: 50%;
+    float: left;
+    
+}
