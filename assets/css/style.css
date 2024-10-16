@@ -50,52 +50,28 @@ as it will change/"grow" with all "blocks" */
 
 
 .tile1 {
-    float: left;
-    margin:10px;
-    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
-    width: 230px;
-    height: 142px; 
-    background-color: #1056c0;
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   background-color: #1056c0;
 }
-.tile1 i {
-    font-size: 70px;
+.tile3 {   
+    background-color: #1dca34; 
+}  
+.tile11 {
+    background-color: #1056c0; 
 }
-.tile1 span {
-    font-size: 16px;   
+.tile2 {
+    background-color: #515351;
 }
 
-.tile11 {
-    float: left;
-    margin:10px;
-    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
-    width: 230px;
-    height: 142px; 
-    background-color: #1056c0;
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.tile11 i {
-    font-size: 70px;
-}
-.tile11 span {
+
+.tile11 span, .tile2 span, .tile3 span, .tile1 span{
     font-size: 16px;   }
 
-
-.tile2 {
+.tile2, .tile3, .tile11, .tile1 {
     float: left;
     margin:10px;
     /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
     width: 230px;
     height: 142px; 
-    background-color: #515351;
     border-radius: 2%;
     display: flex;
     flex-direction: column;
@@ -103,37 +79,9 @@ as it will change/"grow" with all "blocks" */
     align-items: center;
 }
 
-.tile2 i {
+.tile1 i, .tile2 i, .tile3 i, .tile4 i, .tile11 i {
     font-size: 70px;
 }
-.tile2 span {
-    font-size: 16px;
-    
-}
-
-
-.tile3 {
-    float: left;
-    margin:10px;
-    width: 230px;
-    height: 142px; 
-    background-color: #1dca34;
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-.tile3 i {
-    font-size: 70px;
-}
-.tile3 span {
-    font-size: 16px;
-}
-    
-   
-
 
 .tile4 {
     float: left;
@@ -144,12 +92,14 @@ as it will change/"grow" with all "blocks" */
     border-radius: 1%;
 }
 .tile5 {
-    float: left;
+    
     margin:10px;
-    width: 480px;
-    height: 304px; 
+    width: 420px;
+    height: 244px; 
     background-color: #0dbdb4;
     border-radius: 1%;
+    text-align: justify;
+    padding:30px;
 }
 .twitter  {
     float:left;
@@ -205,5 +155,6 @@ as it will change/"grow" with all "blocks" */
     text-align: center;
     padding: 5px;
     font-size: 15px;
+    justify-content: ;
 
 }
