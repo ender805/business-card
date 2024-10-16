@@ -72,6 +72,25 @@ as it will change/"grow" with all "blocks" */
     height: 142px; 
     background-color: #1dca34;
     border-radius: 2%;
+    display: flex;
+    align-items:center;
+    border-radius: 10%;
+    font-size: 80px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+.touch {
+    flex-direction: column;
+    font-size:20px;
+    
+    
+    
 }
 .tile4 {
     float: left;
@@ -112,6 +131,7 @@ as it will change/"grow" with all "blocks" */
     align-items: center;
     justify-content: center;
     border-radius: 10%;
+    align-content: center;
     
 }
 .gplus  {
