@@ -10,6 +10,7 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto; 
+    border-radius: 2%;
     
     box-shadow:0px 0px 30px 20px #37383a
     /* sprawdz magin pozniej margin auto */
@@ -19,6 +20,7 @@ body {
     width: 960px;
     margin:20px;
     text-align: center;
+    
 
 /* width 960 becouse margin will take 20 each side, and container width is 1000 height is neccessary 
 as it will change/"grow" with all "blocks" */
@@ -52,6 +54,7 @@ as it will change/"grow" with all "blocks" */
     width: 230px;
     height: 142px; 
     background-color: #1056c0;
+    border-radius: 2%;
 }
 .tile2 {
     float: left;
@@ -60,6 +63,7 @@ as it will change/"grow" with all "blocks" */
     width: 230px;
     height: 142px; 
     background-color: #515351;
+    border-radius: 2%;
 }
 .tile3 {
     float: left;
@@ -67,6 +71,7 @@ as it will change/"grow" with all "blocks" */
     width: 230px;
     height: 142px; 
     background-color: #1dca34;
+    border-radius: 2%;
 }
 .tile4 {
     float: left;
@@ -74,6 +79,7 @@ as it will change/"grow" with all "blocks" */
     width: 480px;
     height: 142px; 
     background-color: #ce730a;
+    border-radius: 1%;
 }
 .tile5 {
     float: left;
@@ -81,6 +87,7 @@ as it will change/"grow" with all "blocks" */
     width: 480px;
     height: 304px; 
     background-color: #0dbdb4;
+    border-radius: 1%;
 }
 .twitter  {
     float:left;
@@ -92,6 +99,7 @@ as it will change/"grow" with all "blocks" */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10%;
 }
 .linkedin {
     float:left;
@@ -103,6 +111,7 @@ as it will change/"grow" with all "blocks" */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10%;
     
 }
 .gplus  {
@@ -115,6 +124,7 @@ as it will change/"grow" with all "blocks" */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10%;
 }
 .github  {
     float: left;
@@ -126,6 +136,7 @@ as it will change/"grow" with all "blocks" */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10%;
 }
 .bottom {
     text-align: center;
