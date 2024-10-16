@@ -23,3 +23,9 @@ as it will change/"grow" with all "blocks" */
     float: left;
     
 }
+#logo {
+    float: left;
+    font-family: "Saira", sans-serif;
+    /* change font doesnt look good */
+    font-size: 50px;
+}
