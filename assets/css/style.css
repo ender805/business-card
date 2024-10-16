@@ -28,4 +28,47 @@ as it will change/"grow" with all "blocks" */
     font-family: "Saira", sans-serif;
     /* change font doesnt look good */
     font-size: 50px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#clock {
+    float: left;
+    font-family: "Saira", sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.tile1 {
+    float: left;
+    margin:10px;
+    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
+    width: 230px;
+    height: 142px; 
+    background-color: #1056c0;
+}
+.tile2 {
+    float: left;
+    margin:10px;
+    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
+    width: 230px;
+    height: 142px; 
+    background-color: #515351;
+}
+.tile3 {
+    float: left;
+    margin:10px;
+    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
+    width: 230px;
+    height: 142px; 
+    background-color: #1dca34;
+}
+.tile4 {
+    float: left;
+    margin:10px;
+    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
+    width: 480px;
+    height: 142px; 
+    background-color: #ce730a;
 }
