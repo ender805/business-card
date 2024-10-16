@@ -47,12 +47,14 @@ as it will change/"grow" with all "blocks" */
     margin-bottom: 5px;
     
 }
+
+
 .tile1 {
     float: left;
     margin:10px;
     /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
     width: 230px;
-    height: 132px; 
+    height: 142px; 
     background-color: #1056c0;
     border-radius: 2%;
     display: flex;
@@ -62,12 +64,30 @@ as it will change/"grow" with all "blocks" */
 }
 .tile1 i {
     font-size: 70px;
-
 }
 .tile1 span {
-    font-size: 16px;
-    padding-top:10px
+    font-size: 16px;   
 }
+
+.tile11 {
+    float: left;
+    margin:10px;
+    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
+    width: 230px;
+    height: 142px; 
+    background-color: #1056c0;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tile11 i {
+    font-size: 70px;
+}
+.tile11 span {
+    font-size: 16px;   }
+
 
 .tile2 {
     float: left;
@@ -78,24 +98,18 @@ as it will change/"grow" with all "blocks" */
     background-color: #515351;
     border-radius: 2%;
     display: flex;
-    align-items:center;
-    border-radius: 10%;
-    font-size: 80px;
     flex-direction: column;
-
-
-    align-content: center; 
-
-
-    align-items: center;
     justify-content: center;
-
-}
-.cap {
-    flex-direction: column;
-    font-size:15px;
+    align-items: center;
 }
 
+.tile2 i {
+    font-size: 70px;
+}
+.tile2 span {
+    font-size: 16px;
+    
+}
 
 
 .tile3 {
@@ -108,25 +122,22 @@ as it will change/"grow" with all "blocks" */
     display: flex;
     align-items:center;
     border-radius: 10%;
-    font-size: 80px;
+    display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+   
+}
+.tile3 i {
+    font-size: 70px;
+}
+.tile3 span {
+    font-size: 16px;
+}
     
-    
-    
-    
+   
 
-}
-.touch {
-    flex-direction: column;
-    font-size:15px;
-    
-    
-    
-    
-}
+
 .tile4 {
     float: left;
     margin:10px;
