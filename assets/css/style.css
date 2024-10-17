@@ -92,8 +92,8 @@ as it will change/"grow" with all "blocks" */
 .tile4 {
     float: left;
     margin:10px;
-    width: 480px;
-    height: 142px; 
+    width: 440px;
+    height: 102px; 
     background-color: #ce730a;
     border-radius: 1%;
 }
@@ -105,6 +105,10 @@ as it will change/"grow" with all "blocks" */
     border-radius: 1%;
     text-align: justify;
     padding:30px;
+}
+.tile4 {
+    padding: 20px;
+    
 }
 .twitter, .linkedin, .gplus, .github {
     float:left;
@@ -164,7 +168,10 @@ a.sociallink {
     justify-content: center; 
     align-items: center;
 }
-
+a.tilelinkhtml5 {
+    color:#ffffff;
+    text-decoration: none;
+}
 /* thigs to do: 
 1. clock -java script - under clock <p>It's high time..<p> 
 2. left tiles - hover - or something like that then dispaly in tile tile5 (main)
