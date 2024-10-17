@@ -64,12 +64,13 @@ as it will change/"grow" with all "blocks" */
 
 
 .tile11 span, .tile2 span, .tile3 span, .tile1 span{
-    font-size: 16px;   }
+    font-size: 16px; 
+    
+  }
 
-.tile2, .tile3, .tile11, .tile1 {
+.tile2, .tile3  {
     float: left;
     margin:10px;
-    /* those two will take 500px so divide on half will be 250 but set margin 10px will take 20px so width can be 230px  */
     width: 230px;
     height: 142px; 
     border-radius: 2%;
@@ -78,6 +79,20 @@ as it will change/"grow" with all "blocks" */
     justify-content: center;
     align-items: center;
 }
+
+.tile11, .tile1 {
+    float: left;
+    margin:10px;
+    width: 230px;
+    height: 142px; 
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .tile1 i, .tile2 i, .tile3 i, .tile4 i, .tile11 i {
     font-size: 70px;
@@ -129,8 +144,11 @@ as it will change/"grow" with all "blocks" */
     
 
 }
+a.tilelink{
+    color:#ffffff;
+    text-decoration: none;
+}
 
 /* thigs to do: 
 1. clock -java script - under clock <p>It's high time..<p> 
 2. left tiles - hover - or something like that then dispaly in tile tile5 (main)
-3. in css create something on background and movment looks nice simple and its light - just for fun  */
